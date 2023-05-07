@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <h1>Inscripción de alumnos</h1>
+  <form>
+    <div>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre"><br>
+</div>
+    <div>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido"><br>
+</div>
+    <div>
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad"><br>
+</div>
+    <div>
+    <label for="genero">Género:</label>
+    <select id="genero">
+      <option value="masculino">Masculino</option>
+      <option value="femenino">Femenino</option>
+    </select><br>
+</div>
+    <div>
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion"><br>
+</div>
+    <div>
+    <label for="telefono">Teléfono:</label>
+    <input type="text" id="telefono"><br>
+</div>
+    <div>
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email"><br>
+</div>
+    <div>
+    <label for="curso">Curso o carrera:</label>
+    <input type="text" id="curso"><br>
+</div>
+
+    <button type="button" onclick="guardarAlumno()">Guardar</button>
+  </form>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

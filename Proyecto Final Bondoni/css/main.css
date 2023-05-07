@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: violet;
+
+}
+form{
+    border: 5px solid black;
+    background-color: wheat;
+    font-size: x-large;
+}
+
+div{
+    margin: 5px;
+}
+button{
+    margin: 3px;
+}
